@@ -36,15 +36,15 @@ if ($isOptionalParamiter) {
 }
 
 function display_short_help() {
-    echo "Usage: root13 [OPTION]... [STRING]\n----";
+    echo "Usage: rot13 [OPTION]... [STRING]\n----";
     echo "\nType -h for more information\n\n";
 }
 
 function display_help() {
 
-    echo "Usage: root13 [OPTION]... [STRING]";
+    echo "Usage: rot13 [OPTION]... [STRING]";
     echo "-----------------------";
-    echo "Decode or encode a root13 string";
+    echo "Decode or encode a rot13 string";
 	echo "";
     echo "-d, --decode     Decode string";
     echo "-e, --encode     Encode string";
@@ -60,7 +60,7 @@ function display_help() {
 
 
 function display_version() {
-	echo "root13 1.0.0";
+	echo "rot13 1.0.0";
 	echo "Author  @nathabonfim59 -> https://github.com/nathabonfim59";
 	echo "This software is licensed under MIT";
 	
